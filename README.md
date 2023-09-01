@@ -1,7 +1,8 @@
 # Xmonad
 
 ### Installation
-https://travishorn.com/the-xmonad-window-manager-on-arch-linux
+- ```https://travishorn.com/the-xmonad-window-manager-on-arch-linux```
+- graphics driver ```sudo pacman -S xf86-video-fbdev```
 
 ### packages
 - thunar
@@ -9,6 +10,7 @@ https://travishorn.com/the-xmonad-window-manager-on-arch-linux
 - alsamixer
 - copyq
 - alicritty
+- lxappearance
 
 ### Important Commands
 - In ~/.xinitrc file at the top of the file
