@@ -2,7 +2,7 @@
 
 ### Installation
 - ```https://travishorn.com/the-xmonad-window-manager-on-arch-linux```
-- graphics driver ```sudo pacman -S xf86-video-fbdev```
+- graphics driver ```sudo pacman -S xf86-video-fbdev``` [Enable 3D-acceleration]
 
 ### packages
 - thunar
