@@ -1,9 +1,9 @@
 # Xmonad
 
-###Installation
+### Installation
 https://travishorn.com/the-xmonad-window-manager-on-arch-linux
 
-###packages
+### packages
 thunar
 firefox
 alsamixer
