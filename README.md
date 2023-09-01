@@ -8,6 +8,7 @@ https://travishorn.com/the-xmonad-window-manager-on-arch-linux
 - firefox
 - alsamixer
 - copyq
+- alicritty
 
 ### Important Commands
 - In ~/.xinitrc file at the top of the file
