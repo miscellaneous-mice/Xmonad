@@ -11,6 +11,7 @@
 - copyq
 - alicritty
 - lxappearance
+- tty-clock
 
 ### Important Commands
 - In ~/.xinitrc file at the top of the file
