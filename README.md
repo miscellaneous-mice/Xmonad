@@ -12,6 +12,7 @@
 - alicritty
 - lxappearance
 - tty-clock
+- dmenu
 
 ### Important Commands
 - In ~/.xinitrc file at the top of the file
