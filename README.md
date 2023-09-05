@@ -12,7 +12,7 @@
 - alicritty
 - lxappearance
 - tty-clock
-- dmenu ( https://gitlab.com/dwt1/dmenu-distrotube.git )
+- dmenu ( ```https://gitlab.com/dwt1/dmenu-distrotube.git``` )
 
 ### Important Commands
 - In ~/.xinitrc file at the top of the file
