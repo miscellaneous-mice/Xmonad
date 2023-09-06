@@ -11,7 +11,6 @@
 - mkdir -p ~/.config/picom
 - cp /etc/xdg/picom.conf ~/.config/picom/picom.conf
 ```
-- graphics driver ```sudo pacman -S xf86-video-fbdev``` -> [Enable 3D-acceleration]
 
 ### packages
 - thunar
