@@ -23,10 +23,9 @@
 - feh
 - firefox
 - alsamixer
-- copyq
 - alicritty
 - lxappearance
-- tty-clock
+- tty-clock (```git clone https://aur.archlinux.org/tty-clock.git```)
 - dmenu
 - xmobar
 - nord theme ```(https://www.xfce-look.org/p/1267246/)``` -> Load into ~/.themes
