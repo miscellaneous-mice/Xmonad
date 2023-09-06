@@ -10,6 +10,7 @@
 import XMonad
 import XMonad.Layout.Spacing
 import XMonad.Util.Run
+import XMonad.Hooks.ManageDocks
 import Data.Monoid
 import System.Exit
 
@@ -198,7 +199,7 @@ mySpacing = spacingRaw False
 		       True
 		       (Border 5 5 5 5)
                        True
-myLayout = mySpacing $ tiled ||| Mirror tiled ||| Full
+myLayout = mySpacing $ avoidStruts tiled ||| Mirror tiled ||| Full
   where
      -- default tiling algorithm partitions the screen into two panes
      tiled   = Tall nmaster delta ratio
@@ -270,7 +271,8 @@ myStartupHook = return ()
 main = do
   xmproc <- spawnPipe "~/.fehbg"
   xmproc <- spawnPipe "picom"
-  xmonad defaults
+  xmproc <- spawnPipe "xmobar"
+  xmonad $ docks defaults
 
 -- A structure containing your configuration settings, overriding
 -- fields in the default config. Any you don't override, will
