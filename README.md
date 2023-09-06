@@ -2,6 +2,7 @@
 
 ### Installation
 - ```https://travishorn.com/the-xmonad-window-manager-on-arch-linux```
+- ```https://travishorn.com/xmobar```
 - graphics driver ```sudo pacman -S xf86-video-fbdev``` -> [Enable 3D-acceleration]
 
 ### packages
@@ -12,7 +13,7 @@
 - alicritty
 - lxappearance
 - tty-clock
-- dmenu ( ```https://gitlab.com/dwt1/dmenu-distrotube.git``` )
+- dmenu
 
 ### Important Commands
 - In ~/.xinitrc file at the top of the file
