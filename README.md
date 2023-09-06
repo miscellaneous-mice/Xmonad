@@ -2,6 +2,7 @@
 
 ### Installation
 - First install Arch linux
+- Xmonad installation
 - ```sudo pacman -S xorg xorg-server xorg-xinit xf86-video-fbdev xmonad xmonad-contrib alacritty ttf-fira-mono git```
 - ```git clone https://github.com/miscellaneous-mice/Xmonad.git```
 ```
@@ -10,6 +11,11 @@
 - cp ~/Xmonad/xmonad/xmonad.hs ~/.xmonad/
 - mkdir -p ~/.config/picom
 - cp /etc/xdg/picom.conf ~/.config/picom/picom.conf
+```
+- Xmobar installation
+```
+- sudo pacman -S xmobar
+- cp ~/Xmonad/xmonad/.xmobarrc ~/
 ```
 
 ### packages
