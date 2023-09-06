@@ -2,7 +2,7 @@
 
 ### Installation
 - First install Arch linux
-- ```sudo pacman -S xorg xorg-server xorg-xinit xmonad xmonad-contrib alacritty ttf-fira-mono git```
+- ```sudo pacman -S xorg xorg-server xorg-xinit xf86-video-fbdev xmonad xmonad-contrib alacritty ttf-fira-mono git```
 - ```git clone https://github.com/miscellaneous-mice/Xmonad.git```
 ```
 - cp ~/Xmonad/init_files/.xinitrc ~/
