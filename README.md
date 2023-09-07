@@ -14,6 +14,7 @@
 - Copy the figuration files as follows:
 ```
 - cp ~/Xmonad/xmonad/xmonad.hs ~/.xmonad/
+- cp ~/Xmonad/xmonad/.xmobarrc ~/
 - mkdir -p ~/.config/picom
 - cp /etc/xdg/picom.conf ~/.config/picom/picom.conf
 - cp ~/Xmonad/neofetch/config.conf ~/.config/neofetch
