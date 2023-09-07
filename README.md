@@ -45,7 +45,7 @@
 - alsamixer -> Terminal audio control
 - alicritty -> Terminal for our window manager
 - lxappearance -> Used to set our themes, icons and fonts to our window manager and supported gtk-3 applications
-- tty-clock (```git clone https://aur.archlinux.org/tty-clock.git```) -> Simplistic terminal clock
+- tty-clock -> Simplistic terminal clock
 - dmenu -> Used to search applications
 - xmobar -> Top bar to display information
 - nord theme ```(https://www.xfce-look.org/p/1267246/)``` -> Load into ~/.themes
