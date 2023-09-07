@@ -33,7 +33,6 @@
 - cp /etc/xdg/picom.conf ~/.config/picom/picom.conf
 - cp ~/Xmonad/neofetch/config.conf ~/.config/neofetch
 - cp ~/Xmonad/custom_commands/.my_custom_commands.sh ~/custom_commands/
-- cp ~/Xmonad/xmonad/.xmobarrc ~/
 ```
 - Reboot ```sudo reboot```
 - Set the wallpaper
