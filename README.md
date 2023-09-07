@@ -13,12 +13,12 @@
 - Folder configuration
 ```
 - See which folder are missing before going to the next step
-  ~/.xmonad
-  ~/.config/picom
-  ~/.config/neofetch
-  ~/.themes
-  ~/.icons
-  ~/.fonts
+  ~/.xmonad/
+  ~/.config/picom/
+  ~/.config/neofetch/
+  ~/.themes/
+  ~/.icons/
+  ~/.fonts/
 - Else mkdir these folders
 
 - Make the custom commands folder
@@ -35,7 +35,7 @@
 - cp ~/Xmonad/xmonad/.xmobarrc ~/
 - cp ~/Xmonad/alacritty/alacritty.yml ~/.config/alacritty/
 - cp /etc/xdg/picom.conf ~/.config/picom/
-- cp ~/Xmonad/neofetch/config.conf ~/.config/neofetch
+- cp ~/Xmonad/neofetch/config.conf ~/.config/neofetch/
 - cp ~/Xmonad/custom_commands/.my_custom_commands.sh ~/custom_commands/
 ```
 - Reboot ```sudo reboot```
@@ -47,7 +47,7 @@
 - feh -> Our wallpaper manager
 - firefox -> Browser
 - alsamixer -> Terminal audio control
-- alicritty -> Terminal for our window manager
+- alacritty -> Terminal for our window manager
 - lxappearance -> Used to set our themes, icons and fonts to our window manager and supported gtk-3 applications
 - tty-clock -> Simplistic terminal clock
 - dmenu -> Used to search applications
