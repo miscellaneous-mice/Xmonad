@@ -62,6 +62,7 @@
 ``` xrandr --output display-name --mode resolution```
 - *You can find display this by just typing ```xrandr```*
 - The shorcuts definition specified in comments may be wrong so kindly verify the code
+- Run tty-clock in terminal by ```tty_clock_time```
 
 ## References
 - ```https://travishorn.com/xmobar```
