@@ -29,9 +29,9 @@
 - tty-clock (```git clone https://aur.archlinux.org/tty-clock.git```) -> Simplistic terminal clock
 - dmenu -> Used to search applications
 - xmobar -> Top bar to display information
-- nord theme ```(https://www.xfce-look.org/p/1267246/)``` -> Load into ~/.themes
-- nord icons ```(https://www.xfce-look.org/p/1937741)```  -> Load into ~/.icons
-- Jetbrains nerd fonts ```(https://www.nerdfonts.com/font-downloads)``` -> Load into ~/.fonts
+- nord theme ```(https://www.xfce-look.org/p/1267246/)``` -> Load into ~/.themes (create the folder using mkdir)
+- nord icons ```(https://www.xfce-look.org/p/1937741)```  -> Load into ~/.icons (create the folder using mkdir)
+- Jetbrains nerd fonts ```(https://www.nerdfonts.com/font-downloads)``` -> Load into ~/.fonts (create the folder using mkdir)
 - Starship ```(https://starship.rs/)``` -> Alacritty terminal theme
 
 ## References
