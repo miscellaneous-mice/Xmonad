@@ -1,5 +1,8 @@
 # Xmonad
+
 *This is a minimal install*
+
+![Xmonad](https://github.com/miscellaneous-mice/Xmonad/assets/79500624/7a3bf0b7-6788-4f18-a985-f8870fd57ad2)
 
 ### Installation
 - First install Arch linux
