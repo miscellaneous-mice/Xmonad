@@ -26,7 +26,6 @@
 ```
 - cp ~/Xmonad/xmonad/xmonad.hs ~/.xmonad/
 - cp ~/Xmonad/xmonad/.xmobarrc ~/
-- mkdir -p ~/.config/picom
 - cp /etc/xdg/picom.conf ~/.config/picom/picom.conf
 - cp ~/Xmonad/neofetch/config.conf ~/.config/neofetch
 - cp ~/Xmonad/custom_commands/.my_custom_commands ~/custom_commands/
