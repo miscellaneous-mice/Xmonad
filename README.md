@@ -12,8 +12,12 @@
 - cp ~/Xmonad/xmonad/xmonad.hs ~/.xmonad/
 - mkdir -p ~/.config/picom
 - cp /etc/xdg/picom.conf ~/.config/picom/picom.conf
-- cp Xmonad/custom_commands/.my_custom_commands ~/custom_commands/
+- cp ~/Xmonad/neofetch/config.conf ~/.config/neofetch
+- cp ~/Xmonad/custom_commands/.my_custom_commands ~/custom_commands/
 ```
+- Set the wallpaper
+```feh --bg-fill /home/megame/Xmonad/Xmonad/blue.png```
+
 - Xmobar installation
 ```
 - sudo pacman -S xmobar
