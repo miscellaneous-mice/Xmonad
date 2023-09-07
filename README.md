@@ -12,6 +12,7 @@
 - cp ~/Xmonad/xmonad/xmonad.hs ~/.xmonad/
 - mkdir -p ~/.config/picom
 - cp /etc/xdg/picom.conf ~/.config/picom/picom.conf
+- cp Xmonad/custom_commands/.my_custom_commands ~/custom_commands/
 ```
 - Xmobar installation
 ```
