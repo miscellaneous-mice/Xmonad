@@ -6,6 +6,17 @@
 - ```sudo pacman -S xorg xorg-server xorg-xinit xf86-video-fbdev xmonad xmonad-contrib alacritty ttf-fira-mono git```
 - ```git clone https://github.com/miscellaneous-mice/Xmonad.git```
 - Install the given packages below. Feel free to choose.
+- Folder configuration
+```
+- See which folder are missing before going to the next step
+  ~/.xmonad
+  ~/.config/picom
+  ~/.config/neofetch
+- Else mkdir these folders
+
+- Make the custom commands folder
+    mkdir ~/custom_commands
+```
 - Copy the init files, but before that delete the existing .bashrc and .xinitrc files
 ```
 - cp ~/Xmonad/init_files/.xinitrc ~/
