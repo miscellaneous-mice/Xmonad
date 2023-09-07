@@ -41,6 +41,7 @@
 - Reboot ```sudo reboot```
 - Set the wallpaper
 ```feh --bg-fill /home/megame/Xmonad/wallpaper/blue.png```
+- Use lxappearance to apply the install the installed themes, icons and fonts.
 
 ### Dependencies
 - thunar -> File manager
