@@ -53,7 +53,7 @@
 ## Note
 - In BSPWM/.xinitrc file replace the display name and resolution with yours
 ``` xrandr --output display-name --mode resolution```
-- *You can find this by just typing xrandr*
+- *You can find this by just typing ```xrandr```*
 
 ## References
 - ```https://travishorn.com/xmobar```
