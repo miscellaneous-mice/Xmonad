@@ -29,16 +29,11 @@
 - cp /etc/xdg/picom.conf ~/.config/picom/picom.conf
 - cp ~/Xmonad/neofetch/config.conf ~/.config/neofetch
 - cp ~/Xmonad/custom_commands/.my_custom_commands ~/custom_commands/
+- cp ~/Xmonad/xmonad/.xmobarrc ~/
 ```
 - Reboot ```sudo reboot```
 - Set the wallpaper
-```feh --bg-fill /home/megame/Xmonad/Xmonad/blue.png```
-
-- Xmobar installation
-```
-- sudo pacman -S xmobar
-- cp ~/Xmonad/xmonad/.xmobarrc ~/
-```
+```feh --bg-fill /home/megame/Xmonad/wallpaper/blue.png```
 
 ### packages
 - thunar -> File manager
