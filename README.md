@@ -9,7 +9,7 @@
 - Xmonad installation
 - ```sudo pacman -S xorg xorg-server xorg-xinit xf86-video-fbdev xmonad xmonad-contrib alacritty ttf-fira-mono git```
 - ```git clone https://github.com/miscellaneous-mice/Xmonad.git```
-- Install the given packages below. Feel free to choose.
+- Install the following dependencies below. Feel free to choose.
 - Folder configuration
 ```
 - See which folder are missing before going to the next step
@@ -34,7 +34,7 @@
 - cp ~/Xmonad/xmonad/xmonad.hs ~/.xmonad/
 - cp ~/Xmonad/xmonad/.xmobarrc ~/
 - cp ~/Xmonad/alacritty/alacritty.yml ~/.config/alacritty/
-- cp /etc/xdg/picom.conf ~/.config/picom/picom.conf
+- cp /etc/xdg/picom.conf ~/.config/picom/
 - cp ~/Xmonad/neofetch/config.conf ~/.config/neofetch
 - cp ~/Xmonad/custom_commands/.my_custom_commands.sh ~/custom_commands/
 ```
@@ -42,7 +42,7 @@
 - Set the wallpaper
 ```feh --bg-fill /home/megame/Xmonad/wallpaper/blue.png```
 
-### packages
+### Dependencies
 - thunar -> File manager
 - feh -> Our wallpaper manager
 - firefox -> Browser
