@@ -1,5 +1,5 @@
 # Xmonad
-*This is a minimal Xmonad install*
+*This is a minimal install*
 
 ### Installation
 - First install Arch linux
