@@ -50,6 +50,10 @@
 - Jetbrains nerd fonts ```(https://www.nerdfonts.com/font-downloads)``` -> Load into ~/.fonts (create the folder using mkdir)
 - Starship ```(https://starship.rs/)``` -> Alacritty terminal theme
 
+## Note
+- In BSPWM/.xinitrc file replace the display name and resolution with yours
+``` xrandr --output display-name --mode resolution```
+
 ## References
 - ```https://travishorn.com/xmobar```
 - ```https://travishorn.com/the-xmonad-window-manager-on-arch-linux```
