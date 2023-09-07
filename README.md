@@ -6,9 +6,13 @@
 - ```sudo pacman -S xorg xorg-server xorg-xinit xf86-video-fbdev xmonad xmonad-contrib alacritty ttf-fira-mono git```
 - ```git clone https://github.com/miscellaneous-mice/Xmonad.git```
 - Install the given packages below. Feel free to choose.
+- Copy the init files, but before that delete the existing .bashrc and .xinitrc files
 ```
 - cp ~/Xmonad/init_files/.xinitrc ~/
 - cp ~/Xmonad/init_files/.bashrc ~/bashrc (Delete the old bashrc file)
+```
+- Copy the figuration files as follows:
+```
 - cp ~/Xmonad/xmonad/xmonad.hs ~/.xmonad/
 - mkdir -p ~/.config/picom
 - cp /etc/xdg/picom.conf ~/.config/picom/picom.conf
