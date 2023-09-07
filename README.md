@@ -20,7 +20,7 @@
 - Copy the init files, but before that delete the existing .bashrc and .xinitrc files
 ```
 - cp ~/Xmonad/init_files/.xinitrc ~/
-- cp ~/Xmonad/init_files/.bashrc ~/bashrc (Delete the old bashrc file)
+- cp ~/Xmonad/init_files/.bashrc ~/ (Delete the old bashrc file)
 ```
 - Copy the figuration files as follows:
 ```
