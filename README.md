@@ -22,7 +22,7 @@
 - Else mkdir these folders
 
 - Make the custom commands folder
-    mkdir ~/custom_commands
+    mkdir ~/custom_commands/
 ```
 - Copy the init files, but before that delete the existing .bashrc and .xinitrc files
 ```
