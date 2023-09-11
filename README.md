@@ -34,7 +34,7 @@
 - cp ~/Xmonad/xmonad/xmonad.hs ~/.xmonad/
 - cp ~/Xmonad/xmonad/.xmobarrc ~/
 - cp ~/Xmonad/alacritty/alacritty.yml ~/.config/alacritty/
-- cp /etc/xdg/picom.conf ~/.config/picom/
+- cp ~/Xmonad/picom/picom.conf ~/.config/picom/
 - cp ~/Xmonad/neofetch/config.conf ~/.config/neofetch/
 - cp ~/Xmonad/custom_commands/.my_custom_commands.sh ~/custom_commands/
 ```
