@@ -2,7 +2,7 @@
 
 *This is a minimal install*
 
-![Xmonad](https://github.com/miscellaneous-mice/Xmonad/assets/79500624/7a3bf0b7-6788-4f18-a985-f8870fd57ad2)
+![Xmonad](https://github.com/miscellaneous-mice/Xmonad/assets/79500624/bb82dd74-69b3-40b7-9333-081a809edb2d)
 
 ### Installation
 - First install Arch linux
