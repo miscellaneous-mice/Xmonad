@@ -57,10 +57,10 @@ chmod +x ~/custom_commands/.my_custom_commands.sh
 - tty-clock -> Simplistic terminal clock
 - dmenu -> Used to search applications
 - xmobar -> Top bar to display information
-- nord theme ```(https://www.xfce-look.org/p/1267246/)``` -> Load into ~/.themes
-- nord icons ```(https://www.xfce-look.org/p/1937741)```  -> Load into ~/.icons
-- Jetbrains nerd fonts ```(https://www.nerdfonts.com/font-downloads)``` -> Load into ~/.fonts
-- Starship ```(https://starship.rs/)``` -> Alacritty terminal theme
+- nord theme (https://www.xfce-look.org/p/1267246/) -> Load into ~/.themes
+- nord icons (https://www.xfce-look.org/p/1937741)  -> Load into ~/.icons
+- Jetbrains nerd fonts (https://www.nerdfonts.com/font-downloads) -> Load into ~/.fonts
+- Starship (https://starship.rs/) -> Alacritty terminal theme
 
 ## Note
 - At the start I've install xf86-video-fbdev, but check which graphics driver you use and install that appropriately. If graphics drivers installed then skip this.
@@ -71,5 +71,5 @@ chmod +x ~/custom_commands/.my_custom_commands.sh
 - Run tty-clock in terminal by ```tty_clock_time```
 
 ## References
-- ```https://travishorn.com/xmobar```
-- ```https://travishorn.com/the-xmonad-window-manager-on-arch-linux```
+- https://travishorn.com/xmobar
+- https://travishorn.com/the-xmonad-window-manager-on-arch-linux
