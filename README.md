@@ -38,6 +38,10 @@
 - cp ~/Xmonad/neofetch/config.conf ~/.config/neofetch/
 - cp ~/Xmonad/custom_commands/.my_custom_commands.sh ~/custom_commands/
 ```
+- Make these files executable
+```
+chmod +x ~/custom_commands/.my_custom_commands.sh
+```
 - Reboot ```sudo reboot```
 - Set the wallpaper
 ```feh --bg-fill /home/megame/Xmonad/wallpaper/blue.png```
