@@ -7,7 +7,7 @@
 ### Installation
 - First install Arch linux
 - Go through the notes given at the end of the page
-- ```sudo pacman -S xorg xorg-server xorg-xinit xf86-video-fbdev xmonad xmonad-contrib alacritty ttf-fira-mono git```
+- ```sudo pacman -S xorg xorg-server xorg-xinit xmonad xmonad-contrib alacritty ttf-fira-mono git```
 - ```git clone https://github.com/miscellaneous-mice/Xmonad.git``` (In the home directory)
 - Install the following dependencies below. Feel free to choose!
 - Folder configuration
