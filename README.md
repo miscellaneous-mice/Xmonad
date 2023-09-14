@@ -63,7 +63,6 @@ chmod +x ~/custom_commands/.my_custom_commands.sh
 - Starship (https://starship.rs/) -> Alacritty terminal theme
 
 ## Note
-- At the start I've install xf86-video-fbdev, but check which graphics driver you use and install that appropriately. If graphics drivers installed then skip this.
 - In Xmonad/init_files/.xinitrc file replace the display name and resolution with yours
 ``` xrandr --output display-name --mode resolution```
 - *You can find display this by just typing ```xrandr```*
