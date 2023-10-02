@@ -52,7 +52,7 @@ $ mv {directory}/* ~/Backup/
 ```
 $ mkdir ~/custom_commands/
 ```
-- Copy the init files, but before that delete the existing .bashrc and .xinitrc files
+- Copy the init files, but before that move the existing .bashrc and .xinitrc files into backup folder
 ```
 $ mv ~/.bashrc ~/Backup/
 $ cp ~/Xmonad/init_files/.xinitrc ~/
