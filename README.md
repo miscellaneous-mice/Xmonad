@@ -9,7 +9,7 @@
 - Go through the notes [Notes](https://github.com/miscellaneous-mice/Xmonad#note)
 - Display drivers and Necessary packages
 ```
-$ sudo pacman -S xorg xorg-server xorg-xinit xmonad xmonad-contrib alacritty ttf-fira-mono git
+$ sudo pacman -S xorg xorg-server xorg-xinit xmonad xmonad-contrib alacritty ttf-fira-mono git picom
 ```
 - Make the window manager config folder
 ```
