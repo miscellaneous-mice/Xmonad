@@ -79,7 +79,7 @@ $ chmod +x ~/custom_commands/.my_custom_commands.sh
 $ feh --bg-fill ~/Xmonad/wallpaper/blue.png
 ```
 - Use lxappearance to apply the install the installed themes, icons and fonts.
-- Installing tty-clock
+- Install tty-clock
 ```
 $ git clone https://github.com/xorg62/tty-clock.git
 $ cd tty-clock
