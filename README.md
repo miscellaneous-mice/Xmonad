@@ -83,7 +83,7 @@ $ feh --bg-fill ~/Xmonad/wallpaper/blue.png
 - thunar -> File manager
 - feh -> Our wallpaper manager
 - firefox -> Browser
-- alsamixer -> Terminal audio control
+- alsa-utils (alsamixer) -> Terminal audio control
 - alacritty -> Terminal for our window manager
 - lxappearance -> Used to set our themes, icons and fonts to our window manager and supported gtk-3 applications
 - tty-clock -> Simplistic terminal clock
