@@ -33,6 +33,7 @@ $ mkdir ~/Backup
 
 - These are the directories to be checked
 ```
+~/.config
 ~/.config/picom
 ~/.config/neofetch
 ~/.config/alacritty
