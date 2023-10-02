@@ -64,6 +64,8 @@ $ cp ~/Xmonad/custom_commands/.my_custom_commands.sh ~/custom_commands/
 $ chmod +x ~/custom_commands/.my_custom_commands.sh
 ```
 - Reboot ```sudo reboot```
+
+## Extras
 - Set the wallpaper
 ```
 $ feh --bg-fill ~/Xmonad/wallpaper/blue.png
