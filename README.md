@@ -90,6 +90,7 @@ $ feh --bg-fill ~/Xmonad/wallpaper/blue.png
 - tty-clock -> Simplistic terminal clock
 - dmenu -> Used to search applications
 - xmobar -> Top bar to display information
+- htop -> To display hardware resources being used
 - nord theme (https://www.xfce-look.org/p/1267246/) -> Load into ~/.themes
 - nord icons (https://www.xfce-look.org/p/1937741)  -> Load into ~/.icons
 - Jetbrains nerd fonts (https://www.nerdfonts.com/font-downloads) -> Load into ~/.fonts
