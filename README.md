@@ -20,19 +20,29 @@ $ git clone https://github.com/miscellaneous-mice/Xmonad.git
 $ mkdir ~/Backup
 ```
 - Install the following dependencies below. Feel free to choose! [Dependencies](https://github.com/miscellaneous-mice/Xmonad#dependencies)
-- Folder configuration
-```
-- See which folder are missing before going to the next step
-  ~/.xmonad/
-  ~/.config/picom/
-  ~/.config/neofetch/
-  ~/.themes/
-  ~/.icons/
-  ~/.fonts/
-- Else mkdir these folders : $ mkdir {folder-name}
 
+## Folder configuration
+
+- These are the folder to be checked
+```
+~/.xmonad/
+~/.config/picom/
+~/.config/neofetch/
+~/.themes/
+~/.icons/
+~/.fonts/
+```
+- If any of these folders are missing and make the missing directories
+```
+$ mkdir {missing-directory}
+```
+- Also make sure these specified directories are empty else move then into ```~/Backup/```
+```
+$ mv {directory}/* ~/Backup/
+```
 - Make the custom commands folder
-    $ mkdir ~/custom_commands/
+```
+$ mkdir ~/custom_commands/
 ```
 - Copy the init files, but before that delete the existing .bashrc and .xinitrc files
 ```
