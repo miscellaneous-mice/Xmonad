@@ -23,14 +23,14 @@ $ mkdir ~/Backup
 
 ## Folder configuration
 
-- These are the folder to be checked
+- These are the directories to be checked
 ```
-~/.xmonad/
-~/.config/picom/
-~/.config/neofetch/
-~/.themes/
-~/.icons/
-~/.fonts/
+~/.xmonad
+~/.config/picom
+~/.config/neofetch
+~/.themes
+~/.icons
+~/.fonts
 ```
 - If any of these folders are missing and make the missing directories
 ```
