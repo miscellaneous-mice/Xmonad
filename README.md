@@ -6,10 +6,20 @@
 
 ### Installation
 - First install Arch linux
-- Go through the notes given at the end of the page
-- ```sudo pacman -S xorg xorg-server xorg-xinit xmonad xmonad-contrib alacritty ttf-fira-mono git```
-- ```git clone https://github.com/miscellaneous-mice/Xmonad.git``` (In the home directory)
-- Install the following dependencies below. Feel free to choose!
+- Go through the notes [Notes](https://github.com/miscellaneous-mice/Xmonad#note)
+- Display drivers and Necessary packages
+```
+$ sudo pacman -S xorg xorg-server xorg-xinit xmonad xmonad-contrib alacritty ttf-fira-mono git
+```
+- Git clone my repo into home directory
+```
+$ git clone https://github.com/miscellaneous-mice/Xmonad.git
+```
+- Make a backup folder
+```
+$ mkdir ~/Backup
+```
+- Install the following dependencies below. Feel free to choose! [Dependencies](https://github.com/miscellaneous-mice/Xmonad#dependencies)
 - Folder configuration
 ```
 - See which folder are missing before going to the next step
@@ -19,32 +29,35 @@
   ~/.themes/
   ~/.icons/
   ~/.fonts/
-- Else mkdir these folders
+- Else mkdir these folders : $ mkdir {folder-name}
 
 - Make the custom commands folder
-    mkdir ~/custom_commands/
+    $ mkdir ~/custom_commands/
 ```
 - Copy the init files, but before that delete the existing .bashrc and .xinitrc files
 ```
-- cp ~/Xmonad/init_files/.xinitrc ~/
-- cp ~/Xmonad/init_files/.bashrc ~/ (Delete the old bashrc file)
+$ mv ~/.bashrc ~/Backup/
+$ cp ~/Xmonad/init_files/.xinitrc ~/
+$ cp ~/Xmonad/init_files/.bashrc ~/
 ```
 - Copy the figuration files as follows:
 ```
-- cp ~/Xmonad/xmonad/xmonad.hs ~/.xmonad/
-- cp ~/Xmonad/xmonad/.xmobarrc ~/
-- cp ~/Xmonad/alacritty/alacritty.yml ~/.config/alacritty/
-- cp ~/Xmonad/picom/picom.conf ~/.config/picom/
-- cp ~/Xmonad/neofetch/config.conf ~/.config/neofetch/
-- cp ~/Xmonad/custom_commands/.my_custom_commands.sh ~/custom_commands/
+$ cp ~/Xmonad/xmonad/xmonad.hs ~/.xmonad/
+$ cp ~/Xmonad/xmonad/.xmobarrc ~/
+$ cp ~/Xmonad/alacritty/alacritty.yml ~/.config/alacritty/
+$ cp ~/Xmonad/picom/picom.conf ~/.config/picom/
+$ cp ~/Xmonad/neofetch/config.conf ~/.config/neofetch/
+$ cp ~/Xmonad/custom_commands/.my_custom_commands.sh ~/custom_commands/
 ```
 - Make these files executable
 ```
-chmod +x ~/custom_commands/.my_custom_commands.sh
+$ chmod +x ~/custom_commands/.my_custom_commands.sh
 ```
 - Reboot ```sudo reboot```
 - Set the wallpaper
-```feh --bg-fill /home/megame/Xmonad/wallpaper/blue.png```
+```
+$ feh --bg-fill /home/megame/Xmonad/wallpaper/blue.png
+```
 - Use lxappearance to apply the install the installed themes, icons and fonts.
 
 ### Dependencies
@@ -63,8 +76,10 @@ chmod +x ~/custom_commands/.my_custom_commands.sh
 - Starship (https://starship.rs/) -> Alacritty terminal theme
 
 ## Note
-- In Xmonad/init_files/.xinitrc file replace the display name and resolution with yours
-``` xrandr --output display-name --mode resolution```
+- In ```~/.xinitrc``` file replace the display name and resolution with yours
+```
+xrandr --output {display-name} --mode resolution
+```
 - *You can find display this by just typing ```xrandr```*
 - The shorcuts definition specified in comments may be wrong so kindly verify the code
 - Run tty-clock in terminal by ```tty_clock_time```
