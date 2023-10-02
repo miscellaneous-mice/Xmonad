@@ -58,6 +58,14 @@ $ mv ~/.bashrc ~/Backup/
 $ cp ~/Xmonad/init_files/.xinitrc ~/
 $ cp ~/Xmonad/init_files/.bashrc ~/
 ```
+- Copy the basic window manager config files
+```
+$ cp ~/Xmonad/xmonad/xmonad.hs ~/.xmonad/
+```
+- Start the basic window manager (ignore all the errors in terminal)
+```
+$ startx
+```
 - Copy the figuration files as follows:
 ```
 $ cp ~/Xmonad/xmonad/xmonad.hs ~/.xmonad/
