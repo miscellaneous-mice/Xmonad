@@ -35,6 +35,7 @@ $ mkdir ~/Backup
 ```
 ~/.config/picom
 ~/.config/neofetch
+~/.config/alacritty
 ~/.themes
 ~/.icons
 ~/.fonts
