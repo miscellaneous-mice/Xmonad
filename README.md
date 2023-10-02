@@ -56,7 +56,7 @@ $ chmod +x ~/custom_commands/.my_custom_commands.sh
 - Reboot ```sudo reboot```
 - Set the wallpaper
 ```
-$ feh --bg-fill /home/megame/Xmonad/wallpaper/blue.png
+$ feh --bg-fill ~/Xmonad/wallpaper/blue.png
 ```
 - Use lxappearance to apply the install the installed themes, icons and fonts.
 
