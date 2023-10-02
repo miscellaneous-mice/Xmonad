@@ -11,6 +11,10 @@
 ```
 $ sudo pacman -S xorg xorg-server xorg-xinit xmonad xmonad-contrib alacritty ttf-fira-mono git
 ```
+- Get the default configuration of xmonad
+```
+curl -o ~/.xmonad/xmonad.hs https://archives.haskell.org/code.haskell.org/xmonad/man/xmonad.hs
+```
 - Git clone my repo into home directory
 ```
 $ git clone https://github.com/miscellaneous-mice/Xmonad.git
@@ -25,7 +29,6 @@ $ mkdir ~/Backup
 
 - These are the directories to be checked
 ```
-~/.xmonad
 ~/.config/picom
 ~/.config/neofetch
 ~/.themes
