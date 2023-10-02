@@ -11,6 +11,10 @@
 ```
 $ sudo pacman -S xorg xorg-server xorg-xinit xmonad xmonad-contrib alacritty ttf-fira-mono git
 ```
+- Make the window manager config folder
+```
+mkdir ~/.xmonad
+```
 - Get the default configuration of xmonad
 ```
 curl -o ~/.xmonad/xmonad.hs https://archives.haskell.org/code.haskell.org/xmonad/man/xmonad.hs
