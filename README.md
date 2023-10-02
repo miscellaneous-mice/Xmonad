@@ -119,6 +119,8 @@ $ sudo make install
 - alsa-utils (alsamixer) -> Terminal audio control
 - alacritty -> Terminal for our window manager
 - lxappearance -> Used to set our themes, icons and fonts to our window manager and supported gtk-3 applications
+- otf-font-awesome
+- ttf-ubuntu-font-family
 - dmenu -> Used to search applications
 - xmobar -> Top bar to display information
 - htop -> To display hardware resources being used
