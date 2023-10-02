@@ -5,7 +5,7 @@
 ![Xmonad](https://github.com/miscellaneous-mice/Xmonad/assets/79500624/bb82dd74-69b3-40b7-9333-081a809edb2d)
 
 ### Installation
-- First install Arch linux
+- First install Arch linux : https://github.com/miscellaneous-mice/Arch-install
 - Go through the notes [Notes](https://github.com/miscellaneous-mice/Xmonad#note)
 - Display drivers and Necessary packages
 ```
