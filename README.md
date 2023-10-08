@@ -32,20 +32,20 @@ $ mkdir ~/Backup
 ## Folder configuration
 
 - These are the directories to be checked
-```
-~/.config
-~/.config/picom
-~/.config/neofetch
-~/.config/alacritty
-```
-- If any of these folders are missing and make the missing directories
-```
-$ mkdir {missing-directory}
-```
-- Also make sure these specified directories are empty else move then into ```~/Backup/```
-```
-$ mv {directory}/* ~/Backup/
-```
+  ```
+  ~/.config
+  ~/.config/picom
+  ~/.config/neofetch
+  ~/.config/alacritty
+  ```
+  - If any of these folders are missing and make the missing directories
+  ```
+  $ mkdir {missing-directory}
+  ```
+  - Also make sure these specified directories are empty else move then into ```~/Backup/```
+  ```
+  $ mv {directory}/* ~/Backup/
+  ```
 - Make the custom commands folder
 ```
 $ mkdir ~/custom_commands/
